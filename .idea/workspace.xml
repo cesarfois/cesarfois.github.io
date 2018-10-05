@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3199dd7-4982-4e61-ac02-c05e6862c06a" name="Default" comment="" />
+    <list default="true" id="c3199dd7-4982-4e61-ac02-c05e6862c06a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="309" column="51" lean-forward="true" selection-start-line="309" selection-start-column="51" selection-end-line="309" selection-end-column="51" />
+            <state relative-caret-position="176">
+              <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
               <folding>
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -86,8 +88,8 @@
       <file leaf-file-name="base.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="954" column="18" selection-start-line="954" selection-start-column="18" selection-end-line="954" selection-end-column="18" />
+            <state relative-caret-position="475">
+              <caret line="951" lean-forward="true" selection-start-line="951" selection-end-line="951" />
             </state>
           </provider>
         </entry>
@@ -105,7 +107,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>S</find>
       <find>Sear</find>
       <find>favicon.ico</find>
       <find>inde</find>
@@ -132,9 +133,10 @@
       <find>lef</find>
       <find>mar</find>
       <find>margin</find>
-      <find>pull</find>
       <find>AR</find>
       <find>What</find>
+      <find>10 In</find>
+      <find>pull</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -161,11 +163,11 @@
         <option value="$PROJECT_DIR$/contact.html" />
         <option value="$PROJECT_DIR$/modelos/single-standard.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="D:/old Site/arduino.html" />
         <option value="$PROJECT_DIR$/single-standard.html" />
         <option value="$PROJECT_DIR$/arduino.html" />
         <option value="$PROJECT_DIR$/apren-python.html" />
+        <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -266,6 +268,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1696" height="1026" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995495" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
@@ -273,7 +276,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.13288288" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.36373875" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.15953545" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3294621" />
@@ -434,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="954" column="18" selection-start-line="954" selection-start-column="18" selection-end-line="954" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modelos/Modelo.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="478">
@@ -483,10 +479,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="951" lean-forward="true" selection-start-line="951" selection-end-line="951" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="309" column="51" lean-forward="true" selection-start-line="309" selection-start-column="51" selection-end-line="309" selection-end-column="51" />
+        <state relative-caret-position="176">
+          <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
           <folding>
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
