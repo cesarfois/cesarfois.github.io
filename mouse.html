@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Braço Robótico - César J. Fois</title>
+    <title>Mouse-off-Road - César J. Fois</title>
     <meta name="description" content="">
     <meta name="author" content="César J. Fois">
 
@@ -128,13 +128,12 @@
 
             <div class="s-content__header col-full">
                 <h1 class="s-content__header-title">
-                    Braço Robotico Arduino + Controle PS2
+                    Mouse OFF-ROAD
                 </h1>
                 <ul class="s-content__header-meta">
-                    <li class="date">23 de Abril de 2017</li>
+                    <li class="date">3 de Setembro de 2007</li>
                     <li class="cat">
                         In
-                        <a href="arduino.html">Arduino</a>
                         <a href="#0">Eletrônica</a>
                     </li>
                 </ul>
@@ -142,7 +141,8 @@
     
              <div class="s-content__media col-full">
                 <div class="video-container">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xPsZ3u7yk38" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/xoT-lQ_vJNk?start=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
                 </div>
             </div> <!-- end s-content__media -->
 
@@ -160,16 +160,16 @@
                 <div class="row">
 
                     <div class="pull-left_meu ">
-                          <img src="images/braco-robotico/vista-lateral.JPG" class="rounded" alt="...">
+                          <img src="images/mouse/vista-diagonal-250-250.jpg" class="rounded" alt="...">
                     </div>
 
 
                     <div class="pull-right_meu ">
-                          <img src="images/braco-robotico/vista-inferior.JPG" class="rounded" alt="...">
+                          <img src="images/mouse/vista-pincipal-250-250.jpg" class="rounded" alt="...">
                     </div>
 
                     <div class="align-center">
-                          <img src="images/braco-robotico/vista-superior.JPG" class="rounded" alt="...">
+                          <img src="images/mouse/vista-frontal-250-250.jpg" class="rounded" alt="...">
                     </div>
 
 
@@ -183,6 +183,27 @@
                     acoplado sem solda utilizado barramento macho e femea. O acrílico utilizado de base é retirado de um
                     monitor dell antigo e o led de alto brilho se encontra com silicone no acrílico.
                 </p>
+
+                  <div class="row">
+
+                    <div class="pull-left_meu ">
+                          <img src="images/mouse/mouse-controlel-250-250.jpg" class="rounded" alt="...">
+                    </div>
+
+
+                    <div class="pull-right_meu ">
+                          <img src="images/mouse/mouse-nu-250-250.jpg" class="rounded" alt="...">
+                    </div>
+
+                    <div class="align-center">
+                          <img src="images/mouse/vista-lateral-250-250.jpg" class="rounded" alt="...">
+                    </div>
+
+
+                </div>
+
+
+
 
                 <!--
                 <p>
@@ -198,73 +219,14 @@
                 <blockquote><p>This is a simple example of a styled blockquote. A blockquote tag typically specifies a section that is quoted from another source of some sort, or highlighting text in your post.</p></blockquote>
 
                 <p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nulla vitae elit libero, a pharetra augue laboris in sit minim cupidatat ut dolor voluptate enim veniam consequat occaecat fugiat in adipisicing in amet Ut nulla nisi non ut enim aliqua laborum mollit quis nostrud sed sed.</p>
-                -->>
+                -->
 
 
                 <h3>Codigo</h3>
 
                 <p>Vou deixar o codigo abaixo, vou estar verificando mais tarde se o mesmo é a ultima versão</p>
 
-<pre><code>
 
-    include Servo.h>
-
-    Servo servo[4];
-    //code used for attaching upto 4 servos
-
-    byte angle[4] = {40, 120, 90, 90};   // inicializa servos posicion, (7)
-                                         //braço largo, (6) braço curto
-
-    byte potPin[4] = {A0, A1, A2, A3};   // input pins to attach your potentiometers
-    byte servoPin[4] = {7, 6, 10, 9};    // input pins to attach servos
-
-    void setup() {
-
-      //Serial.begin(9600);
-      //Serial.println("Starting DiggerCode.ino");
-
-
-      for (byte n = 0; n < 4; n++) {     // atribui los nomes aos servos
-        servo[n].attach(servoPin[n]);
-      }
-    }
-
-    void loop() {
-      readPotentiometers();
-      moveServos();
-      delay(10);
-    }
-
-    void readPotentiometers() {
-      int potVal;
-      for (byte n = 0; n < 4; n++) {
-        potVal = analogRead(potPin[n]);  // faz leituras dos potenciometros.
-
-        if (potVal < 200) {         // dead zone for the joystick I used is 200 to 550.
-          angle[n] += 1;            // Si la leitura do potenciometro es menor a
-                                    // 200, el suma "1", angle[n] + 1,
-          if (angle[n] > 170) {
-            angle[n] = 170;
-          }
-        }
-
-        if (potVal > 550) {         // deadzone upper value
-          angle[n] -= 1;
-          if (angle[n] < 10) {
-            angle[n] = 10;
-          }
-        }
-
-      }
-    }
-
-    void moveServos() {
-      for (byte n = 0; n < 4; n++) {
-        servo[n].write(angle[n]);
-      }
-    }
-
-</code></pre>
 <!--
                 <p>Odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa.</p>
 
@@ -286,9 +248,9 @@
                     <span>Post Tags</span>
 
                     <span class="s-content__tag-list">
-                        <a href="#0">Braço Robótico</a>
-                        <a href="#0">Controlador Analogico</a>
-                        <a href="#0">Arduino</a>
+                        <a href="#0">Mouse Off-Road</a>
+                        <a href="#0">Controle</a>
+                        <a href="#0">Tecnologia</a>
                         <a href="#0">Eletrônica</a>
                     </span>
                 </p> <!-- end s-content__tags -->
@@ -385,12 +347,12 @@
                     </article>
                     <article class="col-block popular__post">
                         <a href="#0" class="popular__thumb">
-                            <img src="images/thumbs/small/beetle-150.jpg" alt="">
+                            <img src="images/mouse/vista-frontal-250-250.jpg" alt="">
                         </a>
-                        <h5><a href="#0">Throwback To The Good Old Days.</a></h5>
+                        <h5><a href="#0">Mouse Off-Road</a></h5>
                         <section class="popular__meta">
-                            <span class="popular__author"><span>By</span> <a href="#0"> John Doe</a></span>
-                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Dec 16, 2017</time></span>
+                            <span class="popular__author"><span>By</span> <a href="mouse.html"> César Fois</a></span>
+                            <span class="popular__date"><span>on</span> <time datetime="2017-12-16">Abril 03, 2007</time></span>
                         </section>
                     </article>
                     <article class="col-block popular__post">

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3199dd7-4982-4e61-ac02-c05e6862c06a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/arduino.html" beforeDir="false" afterPath="$PROJECT_DIR$/arduino.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,8 +32,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
+            <state relative-caret-position="447">
+              <caret line="496" column="175" selection-start-line="496" selection-start-column="175" selection-end-line="496" selection-end-column="175" />
               <folding>
                 <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
@@ -76,11 +78,20 @@
         <entry file="file://$PROJECT_DIR$/arduino.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
+              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
               <folding>
                 <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mouse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mouse.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="354" column="114" selection-start-line="354" selection-start-column="114" selection-end-line="354" selection-end-column="114" />
             </state>
           </provider>
         </entry>
@@ -107,7 +118,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Sear</find>
       <find>favicon.ico</find>
       <find>inde</find>
       <find>&quot;http://canvabrasil.blogspot.com/&quot;</find>
@@ -133,10 +143,11 @@
       <find>lef</find>
       <find>mar</find>
       <find>margin</find>
-      <find>AR</find>
       <find>What</find>
-      <find>10 In</find>
       <find>pull</find>
+      <find>10 In</find>
+      <find>AR</find>
+      <find>Crea</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -165,9 +176,10 @@
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="D:/old Site/arduino.html" />
         <option value="$PROJECT_DIR$/single-standard.html" />
-        <option value="$PROJECT_DIR$/arduino.html" />
         <option value="$PROJECT_DIR$/apren-python.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/arduino.html" />
+        <option value="$PROJECT_DIR$/mouse.html" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -182,8 +194,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1420" />
-    <option name="y" value="53" />
+    <option name="x" value="1232" />
+    <option name="y" value="63" />
     <option name="width" value="1378" />
     <option name="height" value="735" />
   </component>
@@ -202,6 +214,17 @@
             <path>
               <item name="Cesar-Fois-Site" type="b2602c69:ProjectViewProjectNode" />
               <item name="Cesar-Fois-Site" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesar-Fois-Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesar-Fois-Site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Cesar-Fois-Site" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Cesar-Fois-Site" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="thumbs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Cesar-Fois-Site" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +300,7 @@
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.36373875" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.15953545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4973262" visible="true" weight="0.11552567" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3294621" />
       <window_info anchor="right" id="SciView" order="4" />
@@ -437,33 +460,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/Modelo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="362" column="108" selection-start-line="362" selection-start-column="108" selection-end-line="362" selection-end-column="108" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/old Site/arduino.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="62" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/arduino.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="49" column="67" selection-start-line="49" selection-start-column="67" selection-end-line="49" selection-end-column="67" />
-          <folding>
-            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modelos/single-video.html">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/single-gallery.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -486,10 +488,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/single-video.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modelos/Modelo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="362" column="108" selection-start-line="362" selection-start-column="108" selection-end-line="362" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/arduino.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mouse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="354" column="114" selection-start-line="354" selection-start-column="114" selection-end-line="354" selection-end-column="114" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="406" column="24" selection-start-line="406" selection-start-column="24" selection-end-line="406" selection-end-column="24" />
+        <state relative-caret-position="447">
+          <caret line="496" column="175" selection-start-line="496" selection-start-column="175" selection-end-line="496" selection-end-column="175" />
           <folding>
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" />
             <element signature="n#footer#0;n#body#0;n#html#0;n#!!top" />
