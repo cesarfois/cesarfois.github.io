@@ -201,7 +201,8 @@ h6, .h6 {
    letter-spacing: .16rem;
 }
 
-p img {
+
+img {
    margin: 0;
 }
 
@@ -4215,3 +4216,11 @@ footer h4::after {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.p-meu {
+   text-align: justify ;
+   text-indent: 50px;
+}
+.p-jus {
+   text-align: justify ;
+}
