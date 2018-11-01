@@ -39,8 +39,8 @@
       <file leaf-file-name="apren-python.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/apren-python.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="241" column="111" selection-start-line="241" selection-start-column="111" selection-end-line="241" selection-end-column="111" />
+            <state relative-caret-position="1408">
+              <caret line="242" column="46" selection-start-line="242" selection-start-column="46" selection-end-line="242" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -138,10 +138,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1358" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1696" />
-    <option name="height" value="1026" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -207,7 +207,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1358" y="-8" width="1696" height="1026" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32995495" />
@@ -216,7 +216,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32995495" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4054054" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.5940594" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4973262" weight="0.14425428" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.3294621" />
@@ -514,8 +514,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/apren-python.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="241" column="111" selection-start-line="241" selection-start-column="111" selection-end-line="241" selection-end-column="111" />
+        <state relative-caret-position="1408">
+          <caret line="242" column="46" selection-start-line="242" selection-start-column="46" selection-end-line="242" selection-end-column="46" />
         </state>
       </provider>
     </entry>
